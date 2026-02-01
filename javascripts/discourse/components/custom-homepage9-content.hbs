@@ -308,6 +308,39 @@ body{
   .mr-two{ grid-template-columns: 1fr; }
   .mr-three{ grid-template-columns: 1fr; }
 }
+/* Force full width in Discourse wrappers */
+.course-overview1{
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Discourse theme containers */
+.course-overview1,
+.course-overview1 .wrap,
+.course-overview1 .container,
+.course-overview1 #main-outlet,
+.course-overview1 .custom-homepage-wrapper{
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Remove Discourse side padding if present */
+.course-overview1 .wrap,
+.course-overview1 .container,
+.course-overview1 #main-outlet{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Make the landing content full width (was 880px) */
+.course-overview1 .mr-container{
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 16px;
+  padding-right: 16px;
+}
     </style>
   </head>
 
