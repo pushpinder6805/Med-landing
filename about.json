@@ -1,0 +1,16 @@
+{
+  "name": "WORKSPHEREPULSE FORUM THEME v1.0",
+  "component": true,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {},
+  "modifiers": {
+    "serialize_topic_excerpts": true,
+    "custom_homepage": true
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}
