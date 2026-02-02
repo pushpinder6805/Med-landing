@@ -1,19 +1,12 @@
-{{#unless this.currentUser}}
-  <section class="landing-page">
-    <!-- YOUR HTML HERE -->
-    <main class="mr-page">
-      <div class="mr-container">
-        <h1>Welcome to The Mediation Room</h1>
-        <p>A private professional forum for mediators.</p>
+{{#unless currentUser}}
+  <div class="landing-page-test">
+    <h1>Landing page is working</h1>
 
-        <button
-          class="mr-button"
-          {{on "click" this.goToLogin}}
-        >
-          Enter The Mediation Room
-        </button>
-      </div>
-    </main>
-  </section>
+    <p>This replaces the login page.</p>
+
+    <a href="/login" class="btn btn-primary">
+      Enter the forum
+    </a>
+  </div>
 {{/unless}}
 
