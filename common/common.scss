@@ -1,22 +1,3 @@
-/* ----------------------------------
-   LANDING PAGE VISIBILITY CONTROL
-   ---------------------------------- */
-
-/* Show landing page only on home when logged out */
-body:not(.user-logged-in):not(.login-page):not(.signup-page) .landing-page {
-  display: block;
-}
-
-/* Hide landing page on login & signup */
-body.login-page .landing-page,
-body.signup-page .landing-page {
-  display: none;
-}
-
-/* Hide forum content only on home for logged-out users */
-body:not(.user-logged-in):not(.login-page):not(.signup-page) #main-outlet {
-  display: none;
-}
 
 /* ----------------------------------
    LANDING PAGE STYLES
