@@ -27,7 +27,10 @@ body{
   min-height: 100vh;
   position: relative;
 }
-
+.login-fullpage, .signup-fullpage {
+    height: fit-content !important;
+    }
+    
 .mr-paper-bg{
   position:absolute;
   inset:0;
