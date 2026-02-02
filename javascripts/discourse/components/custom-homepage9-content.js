@@ -5,10 +5,13 @@ export default class CustomHomepageContent extends Component {
   @service router;
 
   get isCustomHomepage() {
-    const currentURL = this.router.currentURL;
-    const customPaths = ["/"];
+    const currentURL = this.router?.currentURL;
 
-    return customPaths.includes(currentURL);
+    if (!currentURL) {
+      return false;
+    }
+
+    return currentURL === "/";
   }
 }
 
