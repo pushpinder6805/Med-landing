@@ -10,7 +10,7 @@
   "assets": {},
   "modifiers": {
     "serialize_topic_excerpts": true,
-    "custom_homepage": true
+    "custom_homepage": false
   },
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }
