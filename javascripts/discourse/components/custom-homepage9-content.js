@@ -1,17 +1,17 @@
 import Component from "@glimmer/component";
 import { service } from "@ember/service";
+import { action } from "@ember/object";
 
 export default class CustomHomepageContent extends Component {
   @service router;
 
   get isCustomHomepage() {
-    const currentURL = this.router?.currentURL;
+    return this.router?.currentURL === "/";
+  }
 
-    if (!currentURL) {
-      return false;
-    }
-
-    return currentURL === "/";
+  @action
+  openLogin() {
+    this.router.transitionTo("login");
   }
 }
 
