@@ -1,7 +1,3 @@
-/* Hide forum for logged-out users */
-body:not(.user-logged-in) #main-outlet {
-  display: none;
-}
 
 /* Force full-width landing */
 .course-overview1,
