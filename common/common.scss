@@ -292,3 +292,12 @@ body{
   .mr-two{ grid-template-columns: 1fr; }
   .mr-three{ grid-template-columns: 1fr; }
 }
+landing-page {
+    padding: 0;
+}
+.landing-page {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+}
